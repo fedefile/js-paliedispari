@@ -2,19 +2,27 @@
 
 // Una funzione per capire se la parola è palindroma
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
+
+var pariODispari = prompt('Scegli pari o dispari');
+var scegliNumero = parseInt(prompt('Scegli un numero da 1 a 5'));
+var numero = generoRandomMinMax(1 , 5);
+var somma = sommaNumeri(10 , 5);
+
+
+
+function generoRandomMinMax(min, max){
+    var numeroRandom = Math.floor(Math.random() * (max - min + 1)) +min;
+    return numeroRandom;
+    console.log(numeroRandom);
+}
+function sommaNumeri( num1 , num2 ){
+    var risultato =  num1 + num2;
+    console.log(risultato);
+}
+
+
+
 
 
 
